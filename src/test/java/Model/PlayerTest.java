@@ -17,5 +17,6 @@ public class PlayerTest extends TestCase {
     }
 
     public void testIncreaseScore() {
+
     }
 }
