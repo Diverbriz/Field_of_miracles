@@ -8,7 +8,7 @@ public class OperationsTest {
 
     @Test
     public void instanceTest() {
-        Operations operations = new Operations();
+        Operations operations = Operations.getInstance();
         assertEquals(operations, Operations.getInstance());
     }
 

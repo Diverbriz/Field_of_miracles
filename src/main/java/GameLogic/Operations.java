@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 import static java.lang.Character.toLowerCase;
 import static java.lang.Character.toUpperCase;
+import static java.lang.System.in;
 import static java.lang.System.out;
 
 public class Operations implements GameOperations{
@@ -20,7 +21,9 @@ public class Operations implements GameOperations{
     private Player[] players;
     private static Operations instance;
     private static MockBase mockBase;
-    public Operations(){}
+    private Operations(){
+
+    }
     public static Operations getInstance(){
         if(instance == null){
             instance = new Operations();
