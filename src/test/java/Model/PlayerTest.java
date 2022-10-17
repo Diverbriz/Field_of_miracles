@@ -9,7 +9,7 @@ public class PlayerTest extends TestCase {
     public void testGetScore() {
         player.setScore(200);
 
-        player.increaseScore(200);
+        player2.increaseScore(200);
         assertEquals(player.getScore(), player2.getScore());
     }
 
