@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c40a05d7-dc36-4473-888f-3842ce8f57d6" name="Changes" comment="Тест с ошибкой">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Model/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Model/PlayerTest.java" afterDir="false" />
+    <list default="true" id="c40a05d7-dc36-4473-888f-3842ce8f57d6" name="Changes" comment="Исправил модель Player и PlayerTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GameLogic/OperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameLogic/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameLogic/Operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -43,19 +45,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": ""
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="GameLogic" />
       <recent name="Model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.testGetScore">
+  <component name="RunManager" selected="JUnit.OperationsTest.instanceTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="field of miracles" />
@@ -69,6 +74,22 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" />
         </ENTRIES>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperationsTest.instanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="field of miracles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GameLogic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GameLogic" />
+      <option name="MAIN_CLASS_NAME" value="GameLogic.OperationsTest" />
+      <option name="METHOD_NAME" value="instanceTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,12 +110,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuestionModelTest.getEqualsStringToCharAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="field of miracles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.QuestionModelTest" />
+      <option name="METHOD_NAME" value="getEqualsStringToCharAnswer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.OperationsTest.instanceTest" />
       <item itemvalue="JUnit.PlayerTest.testGetScore" />
+      <item itemvalue="JUnit.QuestionModelTest.getEqualsStringToCharAnswer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperationsTest.instanceTest" />
+        <item itemvalue="JUnit.QuestionModelTest.getEqualsStringToCharAnswer" />
         <item itemvalue="JUnit.PlayerTest.testGetScore" />
       </list>
     </recent_temporary>
@@ -107,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666019038306</updated>
-      <workItem from="1666019039817" duration="17692000" />
+      <workItem from="1666019039817" duration="19164000" />
     </task>
     <task id="LOCAL-00001" summary="Тест с ошибкой">
       <created>1666038846090</created>
@@ -116,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666038846090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Исправил модель Player и PlayerTest">
+      <created>1666039097002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666039097002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Исправил модель Player и PlayerTest">
+      <created>1666039942272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666039942272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,15 +190,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Тест с ошибкой" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тест с ошибкой" />
+    <MESSAGE value="Исправил модель Player и PlayerTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил модель Player и PlayerTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Model/PlayerTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/test/java/GameLogic/OperationsTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

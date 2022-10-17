@@ -20,7 +20,7 @@ public class Operations implements GameOperations{
     private Player[] players;
     private static Operations instance;
     private static MockBase mockBase;
-
+    public Operations(){}
     public static Operations getInstance(){
         if(instance == null){
             instance = new Operations();
